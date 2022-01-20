@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8"/>
+        <title>Html Structure</title>
+
+    </head>
+    <body>
+
+        <table  border="1" height="200px" width="150px">
+            <tr>
+                <td>Sajjad </td>
+                <td >Raju</td>
+                <td>dfdf</td>
+            </tr>
+
+            <tr>
+                <td>Sajjad </td>
+                <td >Raju</td>
+                <td>dfdf</td>
+            </tr>
+        </table>
+                <hr>
+        <table border="1" height="300px" width="200px">
+            <tr>
+                <td>Sajjad </td>
+                <td >Raju</td>
+
+            </tr>
+
+            <tr>
+                <td>Sajjad </td>
+                <td >Raju</td>
+
+            </tr>
+
+            <tr>
+                <td>Sajjad </td>
+                <td >Raju</td>
+
+            </tr>
+        </table>
+
+        <hr>
+
+        <table border="1" width="960px">
+            <tr>
+                <td>Sajjad </td>
+                <td >Raju</td>
+                <td>dfdf</td>
+                <td>dfdf</td>
+            </tr>
+
+            <tr>
+                <td rowspan="3">Sajjad </td>
+
+            </tr>
+        </table>	<br>
+
+        <hr>
+
+        <table border="1" height="400px" >
+            <tr>
+                <td height="200px">adfsdf</td>
+                <td colspan="3">dfsd</td>
+
+            </tr>
+
+            <tr>
+                <td height="50px" colspan="4" span=""></td>
+            </tr>
+            <tr>
+                <td height="600px">dfsd</td>
+                <td colspan="3">gdsf</td>
+
+            </tr>
+
+            <tr>
+                <height="150px"td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+            </tr>
+
+            <tr>
+                <td height="50px" colspan="4"></td>
+            </tr>
+        </table>
+    </body>
+</html>
