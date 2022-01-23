@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Position</title>
+    <style>
+
+        .div-one{
+            height: 600px;
+            width: 900px;
+            background-color: green;
+            position: relative;
+            margin-top: 20px;
+
+        }
+        .div-two{
+            height: 400px;
+            width: 400px;
+            background-color: red;
+            position: absolute;
+            left: 200px;
+            top: 100px;
+            border-radius: 50%;
+        }
+        .div-three{
+            height:300px ;
+            width: 300px ;
+            background-color: yellow;
+            border: 1px solid red;
+
+
+            transition: 2s;
+            margin-top: 350px;
+            /*transform: rotateX(0deg);*/
+            transform: skew(0deg);
+        }
+        .div-three:hover{
+            background-color: gray;
+
+            /*transform: rotateX(180deg);*/
+            transform: skew(45deg);
+        }
+        .box{
+            margin-left: 150px;
+            position: relative;
+        }
+        .one{
+            height: 300px;
+            width: 50px;
+            background-color: aqua;
+            transform: skew(-30deg);
+            float: left;
+
+
+        }
+        .two{
+            height: 300px;
+            width: 50px;
+            background-color: aqua;
+            transform: skew(30deg);
+            margin-left: 175px;
+            float: left;
+
+        }
+
+        .three{
+            height: 20px;
+            width: 250px;
+            background-color: aqua;
+            margin-top: 150px;
+            transform: skewX(30deg);
+            position: relative;
+            top: 150px;
+            left: 20px;
+
+
+        }
+    </style>
+</head>
+<body>
+    <div class="box">
+        <div class="one"></div>
+        <div class="two"></div>
+        <div class="three"></div>
+
+    </div>
+
+    <div class="div-three"></div>
+    <div class="div-one">
+        <div class="div-two"></div>
+    </div>
+</body>
+</html>
