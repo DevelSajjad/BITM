@@ -89,11 +89,40 @@
     .d-none{
         display: none;
     }
-    .position-relative{
-        position: relative;
-    }
-    .search-div{
-        position: absolute;
-        right: 0px;
-    }
+
+}
+.img-box img{
+    height: 300px;
+    width: 100%;
+}
+
+.btn{
+    text-decoration: none;
+    padding: 10px;
+    background-color: black;
+    color: white;
+    border-radius: 12px;
+    box-shadow: 6px 5px 5px yellow;
+}
+
+.div-cont{
+    text-align: center;
+    padding: 10px;
+    height: 180px;
+    color: white;
+}
+.box{
+    position: relative;
+}
+.detail{
+    position: absolute;
+    top: 30px;
+    display: none;
+    transform: scale(1);
+    transition: 1s;
+}
+.box:hover .detail{
+    display: block;
+    transform: scale(1);
+    transition: 5s;
 }
