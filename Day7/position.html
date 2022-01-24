@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Position</title>
+    <style>
+           /*.div-one {*/
+           /*    height: 600px;*/
+           /*    width: 900px;*/
+           /*    background-color: green;*/
+           /*    position: sticky;*/
+           /*    margin-top: 20px;*/
+           /*}*/
+           /* .div-two {*/
+           /*     height: 400px;*/
+           /*     width: 400px;*/
+           /*     background-color: red;*/
+           /*     position: absolute;*/
+           /*     right: 300px;*/
+           /*     top: 100px;*/
+           /*     border-radius: 50%;*/
+           /*     transition: 1s;*/
+
+           /* }*/
+
+           /* .div-three {*/
+           /*     height: 300px;*/
+           /*     width: 300px;*/
+           /*     background-color: yellow;*/
+           /*     border: 1px solid red;*/
+           /*     border-radius: 0px;*/
+           /*     margin: 150px;*/
+           /*     transition: 2s;*/
+
+
+           /* }*/
+
+            /*.div-two:hover {*/
+            /*    border-radius: 150px;*/
+            /*}*/
+
+            /*.div-three:hover {*/
+            /*    !*border-radius: 150px;*!*/
+            /*    !*transform: scale(1.5);*!*/
+            /*    !*transform: scale3d(1.5,1.5,1.5);*!*/
+            /*    !*transform: rotate(45deg);*!*/
+            /*    transform: rotate3d(1,1,1,360deg);*/
+            /*}*/
+            .div-box{
+                margin-left: 150px;
+                position: relative;
+            }
+            .one {
+                height: 300px;
+                width: 50px;
+                background-color: red;
+                transform: skew(-30deg);
+                float: left;
+            }
+
+           .two {
+               height: 300px;
+               width: 50px;
+               background-color: red;
+               transform: skew(30deg);
+               float: left;
+               margin-left: 150px;
+           }
+
+            .three {
+                height: 20px;
+                width: 250px;
+                background-color: red;
+                margin-top: 150px;
+                transform: scaleX(30deg);
+                position: absolute;
+                top: 0px;
+
+
+            }
+
+    </style>
+</head>
+<body>
+    <div class="div-box">
+        <div class="one"></div>
+        <div class="two"></div>
+        <div class="three"></div>
+    </div>
+
+
+    <div class="div-three"></div>
+    <div class="div-one">
+        <div class="div-two"></div>
+    </div>
+</body>
+</html>
