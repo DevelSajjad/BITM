@@ -1,0 +1,27 @@
+
+.color a {
+    color: black;
+}
+.color a:hover{
+    color: blueviolet;
+}
+.n{
+ position: relative;   
+}
+.p{
+    position: absolute;
+    right: 0;
+}
+.size{
+    width: 300px;
+    margin-left: 120px;
+    margin-top: 15px;
+}
+.sticky{
+    position:sticky;
+    top: 0;
+    background-color: white;
+}
+.f10{
+    font-size: 12px;
+}
